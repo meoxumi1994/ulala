@@ -4,7 +4,7 @@ import thunkMiddleware from "redux-thunk";
 import reducer from "./reducer/index";
 import io from "socket.io-client/dist/socket.io.js";
 
-export const socket = io("http://192.168.1.6:3333");
+export const socket = io("http://18.140.62.70:3333");
 
 function logger({ getState }) {
     return next => action => {
