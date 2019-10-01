@@ -1,0 +1,7 @@
+# Don't track content of these folders
+server/node_modules/
+app/node_modules/
+
+# Compiled source #
+###################
+*.env
